@@ -2,6 +2,7 @@ fun main() {
     rumah()
     jajanan()
     fasilitas()
+    kulkas()
 
 }
 
@@ -26,4 +27,9 @@ fun fasilitas() {
     val manIC = mutableSetOf("Lapangan", "Asrama", "Mess guru","Kantin",
         "RKB", "Perpus", "Lab", "PTSP")
     println(manIC)
+}
+
+fun kulkas () {
+    val freezer = listOf("Sharp", "Aqua")
+    println(freezer)
 }
