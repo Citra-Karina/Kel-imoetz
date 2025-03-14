@@ -33,3 +33,5 @@ fun kulkas () {
     val freezer = listOf("Sharp", "Aqua")
     println(freezer)
 }
+
+var satu = "1"
